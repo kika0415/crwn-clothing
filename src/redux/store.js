@@ -4,7 +4,7 @@ import { persistStore } from 'redux-persist';
 
 import rootReducer from './rootReducer';
 
-const middlerwares = [logger];
+const middlerwares = [];
 if (process.env.NODE_ENV === 'development') {
   middlerwares.push(logger);
 }
